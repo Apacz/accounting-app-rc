@@ -1,0 +1,111 @@
+{
+  "id": "accounting-application",
+  "key": "accounting-application",
+  "name": "Accounting Application",
+  "version": "1.0.0",
+  "channel": "stable",
+  "type": "app",
+  "entry": "app.json",
+  "slug": "accounting-application",
+  "title": "SME Accounting Control Center",
+  "short_description": "Get cashflow clarity, faster invoicing, and fewer month-end surprises in one workflow.",
+  "outcome_statement": "Reduce invoice-to-payment cycle time by up to 30% and cut manual bookkeeping effort by 8-12 hours per week.",
+  "target_icp": "SME companies with 20-200 employees, led by finance managers, operations managers, or founders overseeing cashflow.",
+  "primary_pain_points": [
+    "Late invoice payments reduce predictable cashflow",
+    "Manual reconciliation consumes finance team time",
+    "Month-end reporting is slow and error-prone",
+    "Finance data is scattered across tools"
+  ],
+  "measurable_kpis": [
+    "Invoice-to-payment cycle time",
+    "Days sales outstanding (DSO)",
+    "Weekly manual accounting hours",
+    "Month-end close duration"
+  ],
+  "workflows_included": [
+    "Invoice creation and approval: standardize invoice output and reduce billing delays",
+    "Payment tracking and reminders: follow up automatically to improve collection rates",
+    "Reconciliation workflow: match transactions faster with fewer manual checks",
+    "Executive finance dashboard: track profitability and cash position in real time"
+  ],
+  "required_modules": [
+    "Finance",
+    "Documents",
+    "Organisation"
+  ],
+  "optional_modules": [
+    "CRM",
+    "HR",
+    "WMS"
+  ],
+  "integrations_supported": [
+    "Stripe",
+    "PayPal",
+    "Bank CSV imports",
+    "Google Sheets",
+    "Zapier"
+  ],
+  "screenshots": [
+    "assets/screenshots/accounting-dashboard.png",
+    "assets/screenshots/invoice-reminders.png",
+    "assets/screenshots/reconciliation-board.png"
+  ],
+  "demo_video_url": "https://www.youtube.com/watch?v=accounting-application-demo",
+  "install_steps": [
+    "Install package from Robo Meister Store",
+    "Connect your billing and payment accounts",
+    "Import customers, chart of accounts, and open invoices",
+    "Activate invoice reminders and reconciliation rules",
+    "Review dashboard KPIs and assign finance owners"
+  ],
+  "estimated_time_to_value": "7 days",
+  "expansion_triggers": [
+    "Monthly invoice volume exceeds 300",
+    "Finance team grows beyond 2 people",
+    "Need consolidated reporting across multiple entities"
+  ],
+  "pricing_hint": "Best for teams on Growth and Scale plans that need finance process automation.",
+  "landing_pages": {
+    "primary": "https://robo-meister.com/solution/accounting-application",
+    "secondary": "https://robo-meister.com/solution/finance-automation-for-sme"
+  },
+  "store_url": "https://store.robo-meister.com/packages/accounting-application",
+  "cta": {
+    "primary_label": "Start 14-Day Finance Upgrade",
+    "primary_action": "install_now",
+    "secondary_label": "Book a Cashflow Review",
+    "secondary_action": "book_demo"
+  },
+  "tracking": {
+    "primary_conversion_event": "package_install",
+    "secondary_events": [
+      "store_page_view",
+      "landing_page_cta_click",
+      "onboarding_completed",
+      "first_invoice_sent",
+      "first_reconciliation_completed"
+    ]
+  },
+  "utm_defaults": {
+    "campaign_name": "accounting_application_sme_growth",
+    "source": "robo_meister",
+    "medium": "paid_social"
+  },
+  "modules_required": [
+    "Finance",
+    "Documents",
+    "Organisation"
+  ],
+  "modules": [
+    "Finance",
+    "Documents",
+    "Organisation",
+    "CRM",
+    "HR",
+    "WMS"
+  ],
+  "plan_tiers": [
+    "Silver"
+  ]
+}

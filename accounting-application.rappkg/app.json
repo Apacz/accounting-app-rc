@@ -1,0 +1,50 @@
+{
+  "name": "Accounting Application",
+  "title": "Accounting Application",
+  "version": "1.0.0",
+  "description": "Streamline Your Business Finances with Our All-in-One Accounting Software",
+  "modules": [
+    "Finance",
+    "Documents",
+    "HR",
+    "CRM",
+    "WMS",
+    "Organisation"
+  ],
+  "color": "blue",
+  "icon": "fa-money-check-alt",
+  "url": "accounting_dashboard",
+  "menu": {
+    "Dashboard": "accounting_dashboard",
+    "Payments": {
+      "My Payments Methods": "payment_store_index",
+      "Payments Types": "payment_store_type_index",
+      "Payment History": "payment_store_history_index"
+    },
+    "Accounting": {
+      "Accounts": "app_account_index",
+      "Bank Accounts": "app_bank_account_index",
+      "Invoices": "app_invoice_index",
+      "Draft of Invoices": "app_draft_invoice_index",
+      "Bills": "app_bill_index",
+      "Audits": "app_audit_log_index",
+      "Transactions": "app_transaction_index",
+      "Transactions Details": "app_transaction_detail_index",
+      "Cash Deposits": "cash_deposits",
+      "Deposits History": "app_deposit_history_new"
+    },
+    "Employees": {
+      "List": "app_employee_index",
+      "Attendance": "app_attendance_index",
+      "Payrolls": "app_payroll_index",
+      "Contracts": "app_employment_contract_index",
+      "Leaves": "app_leave_index"
+    },
+    "Magazine": {
+      "List Of Magazines": "list_magazines",
+      "List Of Sections": "list_section_magazine",
+      "List of Items": "app_item_magazine_index"
+    }
+  },
+  "available": true
+}
