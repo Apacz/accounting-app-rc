@@ -10,7 +10,15 @@
   "title": "SME Accounting Control Center",
   "short_description": "Get cashflow clarity, faster invoicing, and fewer month-end surprises in one workflow.",
   "outcome_statement": "Reduce invoice-to-payment cycle time by up to 30% and cut manual bookkeeping effort by 8-12 hours per week.",
-  "target_icp": "SME companies with 20-200 employees, led by finance managers, operations managers, or founders overseeing cashflow.",
+  "target_icp": {
+    "company_size": "SME companies with 20-200 employees",
+    "personas": [
+      "Finance Manager",
+      "Controller",
+      "Operations Manager",
+      "Founder / CEO"
+    ]
+  },
   "primary_pain_points": [
     "Late invoice payments reduce predictable cashflow",
     "Manual reconciliation consumes finance team time",
@@ -21,13 +29,34 @@
     "Invoice-to-payment cycle time",
     "Days sales outstanding (DSO)",
     "Weekly manual accounting hours",
-    "Month-end close duration"
+    "Month-end close duration",
+    "Reconciliation completion SLA"
   ],
   "workflows_included": [
-    "Invoice creation and approval: standardize invoice output and reduce billing delays",
-    "Payment tracking and reminders: follow up automatically to improve collection rates",
-    "Reconciliation workflow: match transactions faster with fewer manual checks",
-    "Executive finance dashboard: track profitability and cash position in real time"
+    {
+      "id": "invoice-approvals",
+      "name": "Invoice Approvals",
+      "anchor": "invoice-approvals",
+      "summary": "Route draft invoices for finance approval before issuing to reduce errors and rework."
+    },
+    {
+      "id": "payment-reminders",
+      "name": "Payment Tracking & Reminders",
+      "anchor": "payment-reminders",
+      "summary": "Automate due-date reminders and escalation to improve collection rates and cashflow predictability."
+    },
+    {
+      "id": "reconciliation-workflow",
+      "name": "Reconciliation Workflow",
+      "anchor": "reconciliation",
+      "summary": "Match bank activity to invoices and ledger entries with guided exception handling."
+    },
+    {
+      "id": "audit-logs",
+      "name": "Audit Logs & Compliance Trail",
+      "anchor": "audit-logs",
+      "summary": "Capture approval history, posting changes, and reconciliation decisions for audit readiness."
+    }
   ],
   "required_modules": [
     "Finance",
@@ -89,8 +118,8 @@
   },
   "utm_defaults": {
     "campaign_name": "accounting_application_sme_growth",
-    "source": "robo_meister",
-    "medium": "paid_social"
+    "source": "google_ads",
+    "medium": "paid_search"
   },
   "modules_required": [
     "Finance",
@@ -107,5 +136,12 @@
   ],
   "plan_tiers": [
     "Silver"
-  ]
+  ],
+  "package_id": 22,
+  "roles": [
+    "Finance",
+    "Operations",
+    "IT"
+  ],
+  "status": "public"
 }
