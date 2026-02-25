@@ -76,9 +76,10 @@
     "Zapier"
   ],
   "screenshots": [
-    "assets/screenshots/accounting-dashboard.png",
-    "assets/screenshots/invoice-reminders.png",
-    "assets/screenshots/reconciliation-board.png"
+    "/screenshots/Finance.png",
+    "/screenshots/Documents.png",
+    "/screenshots/Regulations.png",
+    "/screenshots/Reports.png"
   ],
   "demo_video_url": "https://www.youtube.com/watch?v=accounting-application-demo",
   "install_steps": [
